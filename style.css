@@ -1,0 +1,49 @@
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: lightblue;
+}
+.item{
+	display: flex;
+	justify-content: flex-end;
+}
+.item{
+	margin: 10px 30px
+	color:white;
+	font-family: Optima;
+
+}
+.item{
+	color:white;
+	font-family: Optimal;
+}
+.frame{
+	border: 10px solid white; 
+	margin: 100px;
+	padding: 30px;
+}
+
+
+
+h1{
+	color: white;
+	font-size: 25px;
+	background: lightblue;
+	font-family: arial;
+}
+body{
+	font-family: Optima;
+	font-size: 13px;
+	background-color: #E5D3CF;
+	text-align: center;
+}
+.imgcentre{
+	display: flex;
+	justify-content: center;
+}
+
+a, a:hover{
+	color: white;
+}
