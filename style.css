@@ -1,3 +1,33 @@
+.line-transparent {
+  background: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-light {
+  height: 50px;
+  width: 20%;
+  background: #FEFEFE;
+}
+
+.line-medium {
+  height: 50px;
+  width: 30%;
+  background: #DAD0C9;
+}
+
+.line-hard {
+  height: 50px;
+  width: 50%;
+  background: #041595;
+}
+
+
+
+
+
 
 .navbar{
 	display: flex;
@@ -23,6 +53,8 @@
 	border: 10px solid white; 
 	margin: 100px;
 	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px grey;
 }
 
 
@@ -31,7 +63,7 @@ h1{
 	color: white;
 	font-size: 25px;
 	background: lightblue;
-	font-family: arial;
+	font-family: Stint Ultra Condensed, cursive ;
 }
 body{
 	font-family: Optima;
